@@ -51,8 +51,8 @@
             android:icon="@drawable/ic_settings_ambient" >
             <intent
                 android:action="android.intent.action.MAIN"
-                android:targetPackage="com.custom.ambient.display"
-                android:targetClass="com.custom.ambient.display.DozeSettings" />
+                android:targetPackage="com.android.settings.doze"
+                android:targetClass="com.android.settings.doze.SamsungDozeActivity" />
         </Preference>
 
         <!-- Buttons -->
